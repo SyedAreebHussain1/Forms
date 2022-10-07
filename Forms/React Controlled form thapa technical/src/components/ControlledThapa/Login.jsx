@@ -7,7 +7,6 @@ const Login = () => {
     const inputEvent = (e) => {
       console.log('click', e.target.value)
       setName(e.target.value)
-      // setPassword(e.target.value)
     }
     const onsubmit = () => {
       setFullName(name)
